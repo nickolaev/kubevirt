@@ -56,7 +56,7 @@ testimage_main="
   iputils
   nmap-ncat
   procps-ng
-  qemu-img-${QEMU_VERSION}
+  qemu-img
   sevctl
   tar
   targetcli
@@ -66,7 +66,7 @@ testimage_main="
 
 # create a rpmtree for libvirt-devel. libvirt-devel is needed for compilation and unit-testing.
 libvirtdevel_main="
-  libvirt-devel-${LIBVIRT_VERSION}
+  libvirt-devel
 "
 libvirtdevel_extra="
   keyutils-libs
